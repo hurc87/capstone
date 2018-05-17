@@ -93,3 +93,21 @@ span {
 
 
 /* footer */
+
+footer {
+  width: 100%;
+  display: inline-flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.footerbox {
+  margin: 0;
+  padding-left: 24px;
+  flex-grow: 10;
+}
+
+.footerlinks a {
+  color: #737272;
+  padding-right: 24px;
+}
