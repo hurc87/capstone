@@ -1,4 +1,48 @@
+html {
+  font-size: 16px;
+  color: #737272;
+  font-family: Helvetica;
+}
 
+/* footer */
+
+.header {
+  width: 100%;
+  height: 64px;
+  display: inline-flex;
+}
+
+.headerlogo {
+  display: inline-flex;
+  margin: 0;
+  padding-left: 24px;
+  flex-grow: 10;
+  align-items: center;
+}
+
+.logotitle {
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+span {
+  font-weight: bold;
+  color: #3F3E3E;
+}
+
+.navbar {
+  color: #3F3E3E;
+  font-size: 1.5rem;
+  margin: 0;
+  padding-right: 24px;
+  display: inline-flex;
+  align-items: center;
+}
+.navbox {
+  padding-left: 16px;
+}
 
 
 
