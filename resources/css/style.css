@@ -4,7 +4,7 @@ html {
   font-family: Helvetica;
 }
 
-/* footer */
+/* header */
 
 .header {
   width: 100%;
@@ -18,9 +18,6 @@ html {
   padding-left: 24px;
   flex-grow: 10;
   align-items: center;
-}
-
-.logotitle {
 }
 
 h1 {
@@ -44,9 +41,53 @@ span {
   padding-left: 16px;
 }
 
+/* banner */
 
+.bannerbox {
+  width: 100%;
+  background-color: #D1CFCF;
+  display: inline-flex;;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #3F3E3E;
+}
 
+.bannerimage {
+  margin: 32px 24px;
+  width: 60%;
+}
 
+.banner2 {
+  width: 35%;
+  height: auto;
+}
+
+.bannerimage img {
+  width: 100%;
+  height: auto;
+}
+
+.bannerdescription h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.bannerdescription h2{
+  font-size: 2rem;
+}
+
+.bannerbutton {
+  background-color: #3F3E3E;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.bannerbutton a {
+  color: #FFF;
+}
 
 
 
