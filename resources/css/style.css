@@ -4,6 +4,26 @@ html {
   font-family: Helvetica;
 }
 
+div {
+  border: 1px solid black;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #3F3E3E;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #3F3E3E;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
 /* header */
 
 .header {
@@ -20,11 +40,12 @@ html {
   align-items: center;
 }
 
-h1 {
-  font-size: 2rem;
+span {
+  color: #737272;
+  font-weight: normal;
 }
 
-span {
+.bold {
   font-weight: bold;
   color: #3F3E3E;
 }
@@ -67,15 +88,6 @@ span {
   height: auto;
 }
 
-.bannerdescription h1 {
-  font-size: 4rem;
-  font-weight: bold;
-}
-
-.bannerdescription h2{
-  font-size: 2rem;
-}
-
 .bannerbutton {
   background-color: #3F3E3E;
   width: 100%;
@@ -88,6 +100,104 @@ span {
 .bannerbutton a {
   color: #FFF;
 }
+
+/* main section */
+
+.mainsection {
+  width: 100%;
+  display: inline-flex;
+}
+
+.main1 {
+  width: 60%;
+  height: auto;
+  margin: 0;
+  padding: 32px 24px;
+}
+
+.mainbox {
+  width: 100%;
+}
+
+.maintitle {
+  margin: 0;
+  padding-top: 32px;
+}
+
+.maintitle h1{
+    padding-bottom: 24px;
+}
+
+.mainbottom {
+  color: #3F3E3E;
+}
+
+.mainimage img {
+  width: 100%;
+  height: auto;
+}
+
+.abox {
+  width: 40%;#
+
+}
+
+.aboximage {
+  margin: 16px;
+}
+
+
+
+
+/* learning box */
+
+.learning {
+  width: 100%;
+  background-color: #D1CFCF;
+  padding: 32px 72px;
+}
+
+.learning h1 {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.lessonbox {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.box1image img {
+  height: auto;
+  width: 100%;
+}
+
+.box1 {
+  margin-bottom: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 30%;
+  background-color: #FFF;
+}
+
+.box1description {
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+
+.learning h3 {
+  color: #737272;
+  padding-top: 8px;
+}
+
+
+
+
+
+
+
 
 
 
