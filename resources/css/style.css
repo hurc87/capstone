@@ -8,19 +8,25 @@ div {
   border: 1px solid black;
 }
 
-h2 {
+h3 {
   font-size: 2rem;
   color: #3F3E3E;
   font-weight: bold;
 }
 
 h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #3F3E3E;
+}
+
+h2 {
   font-size: 4rem;
   font-weight: bold;
   color: #3F3E3E;
 }
 
-h3 {
+h4 {
   font-size: 1.5rem;
 }
 
@@ -124,7 +130,7 @@ span {
   padding-top: 32px;
 }
 
-.maintitle h1{
+.maintitle h2{
     padding-bottom: 24px;
 }
 
@@ -168,8 +174,8 @@ padding-bottom: 5px;
 
 .aboxdescription a {
   color: #3B72D7;
+  font-size: 1.5rem;
 }
-
 
 /* learning box */
 
@@ -179,7 +185,7 @@ padding-bottom: 5px;
   padding: 32px 72px;
 }
 
-.learning h1 {
+.learning h2 {
   text-align: center;
   padding-bottom: 32px;
 }
@@ -209,7 +215,7 @@ padding-bottom: 5px;
   padding-bottom: 24px;
 }
 
-.learning h3 {
+.learning h4 {
   color: #737272;
   padding-top: 8px;
 }
@@ -244,7 +250,7 @@ padding-bottom: 5px;
   padding-top: 24px;
 }
 
-.ex1content h2 {
+.ex1content h3 {
   padding-bottom: 8px;
 }
 
@@ -290,10 +296,6 @@ padding-bottom: 5px;
   width: 55%;
   align-self: center;
 }
-
-
-
-
 
 /* footer */
 
