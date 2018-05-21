@@ -138,15 +138,37 @@ span {
 }
 
 .abox {
-  width: 40%;#
+display: inline-flex;
+padding-bottom: 5px;
+}
 
+.bbox {
+  display: inline-flex;
+  background-color: #D1CFCF;
 }
 
 .aboximage {
-  margin: 16px;
+  padding: 16px;
+  width: 35%;
 }
 
+.aboximage img {
+  width: 100%;
+  height: auto;
+}
 
+.main2 {
+  width: 35%;
+}
+
+.aboxdescription {
+  width: 55%;
+  align-self: center;
+}
+
+.aboxdescription a {
+  color: #3B72D7;
+}
 
 
 /* learning box */
