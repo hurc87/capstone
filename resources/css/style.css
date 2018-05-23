@@ -220,6 +220,8 @@ padding-bottom: 5px;
   padding-top: 8px;
 }
 
+
+
 /* exhibits box */
 
 .exhibit {
@@ -315,4 +317,105 @@ footer {
 .footerlinks a {
   color: #737272;
   padding-right: 24px;
+}
+
+@media only screen and (min-width: 1061px) {
+  .learningmob , .mainmob , .mobilenav {
+    display: none;
+  }
+
+
+}
+
+/* mobile screen */
+
+@media only screen and (max-width: 1060px) {
+
+  .header , .mainsection , .ex1content , .ex2 , .learning , .footerlinks {
+    display: none;
+  }
+
+  .mobilenav {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .banner2 {
+    width: 100%;
+    margin: 16px 32px 16px 32px;
+  }
+
+  .bannerimage {
+    width: 100%;
+    margin: 0;
+  }
+
+  .mainmob {
+    width: 100%;
+  }
+
+  .mimage {
+    padding: 16px;
+  }
+
+  .mimage img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mdescription {
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 64px;
+  }
+
+  .learningmob a {
+    font-size: 2rem;
+    color: #3F3E3E;
+    font-weight: bold;
+    padding-left: 16px;
+  }
+
+  .learningmob {
+    width: 100%;
+    padding-bottom: 32px;
+  }
+
+  .ltitle {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .lbox {
+    background-color: #D1CFCF;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .exhibit h2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+  }
+
+  .ex1 {
+    width: 100%;
+    padding: 0;
+  }
+
+  .exhibitcontent {
+    padding-left: 0;
+  }
+
+  footer {
+    padding-top: 24px;
+  }
+
 }
