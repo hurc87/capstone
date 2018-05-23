@@ -4,10 +4,6 @@ html {
   font-family: Helvetica;
 }
 
-div {
-  border: 1px solid black;
-}
-
 h3 {
   font-size: 2rem;
   color: #3F3E3E;
@@ -220,8 +216,6 @@ padding-bottom: 5px;
   padding-top: 8px;
 }
 
-
-
 /* exhibits box */
 
 .exhibit {
@@ -323,8 +317,6 @@ footer {
   .learningmob , .mainmob , .mobilenav {
     display: none;
   }
-
-
 }
 
 /* mobile screen */
